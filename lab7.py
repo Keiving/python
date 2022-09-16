@@ -8,11 +8,14 @@
 #▪ символы с индексами кратными трем.
 
 print("1._______________");
+
 var_str = "123456789";
 print(var_str[0], var_str[-1], var_str[2], var_str[-3], "Lenght = ", len(var_str));
+
 print("_________________");
 
 print("2._______________");
+
 var_str_2 = "1234567890";
 print("первые восемь символов", var_str[0:8]);
 print("четыре символа из центра строки",var_str_2[int(len(var_str)/2)-2 : int(len(var_str_2)/2)+2]);
